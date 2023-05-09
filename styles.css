@@ -1,0 +1,126 @@
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+   
+}
+
+.card{
+    width: 400px;
+    height: 430px;
+    border-radius: 25px;
+    background-color:	hsl(215, 21%, 16%);
+}
+
+h1{
+    color: white;
+    font-weight: 400;
+}
+
+p, .number{
+    color: hsl(217, 12%, 63%);
+}
+
+p{
+    line-height: 1.5;
+}
+
+.content{
+    margin: 30px 35px;
+}
+
+#star{
+    padding: 15px;
+    border-radius: 50%;
+    background-color:hsl(214, 19%, 24%); 
+}
+
+.ratings{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+  
+
+
+.number{
+    background-color:hsl(214, 19%, 24%); 
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    color:hsl(217, 12%, 63%);
+}
+
+.number:hover{
+    background-color:  hsl(25, 97%, 53%);
+}
+
+.submit{
+    display: flex;
+}
+
+#submit{
+    flex: 1;
+    padding: 15px 15px;
+   border-radius: 20px;
+   border:none;
+   background-color:  hsl(25, 97%, 53%);
+   color: white;
+   text-transform: uppercase;
+   font-size: 1rem;
+   letter-spacing: 2px;
+}
+
+#submit:hover{
+    background-color: white;
+    color: orange;
+}
+
+#submit:active{
+    background-color: white;
+    color: orange;
+}
+
+.number:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.number, #submit{
+    cursor:pointer;
+}
+
+.card-2 .content{
+   text-align: center;
+}
+
+.selection{
+    color:hsl(25, 97%, 53%);
+    width: 50%; 
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: light;
+    background-color:hsl(214, 19%, 24%); 
+    display: inline-block;
+}
+
+.hidden{
+    display: none;
+}
